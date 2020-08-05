@@ -1,5 +1,6 @@
 body {
   background: #010001;
+  color: #fff;
   margin: 0;
   padding-top: 53px;
   font-family: 'Roboto', sans-serif;
@@ -28,4 +29,99 @@ body {
   margin-left: 10px;
   font-size: 12px;
   line-height: 14px;
+}
+
+.secondary-nav .item-link {
+  color: #808080;
+}
+
+.main {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  margin: auto;
+  text-transform: lowercase;
+  max-width: 268px;
+}
+
+.description:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 60px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.video {
+  max-width: 1230px;
+  width: 90%;
+  margin: auto;
+  height: 750px;
+}
+
+.features {
+  position: relative;
+  max-width: 1230px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.features-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.table {
+  margin-bottom: 200px;
+}
+
+.table-colum {
+  width: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 179.69%;
+  /* or 32px */
+}
+
+.features-text {
+  max-width: 490px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.rocket {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: 10;
 }
