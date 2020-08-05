@@ -1,0 +1,31 @@
+body {
+  background: #010001;
+  margin: 0;
+  padding-top: 53px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  max-width: 1230px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.item-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 14px;
+}
