@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SpaceX</title>
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/vidbg.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -13,8 +14,13 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/logo.svg" alt="Logo SpaceX" class="logo" />
-      <nav class="main-nav">
+      <img
+        src="img/logo.svg"
+        alt="Logo SpaceX"
+        class="logo"
+        data-aos="fade-down"
+      />
+      <nav class="main-nav" data-aos="fade-down">
         <ul class="list">
           <li class="item">
             <a href="#" class="item-link">Falcon 9</a>
@@ -31,7 +37,7 @@
         </ul>
       </nav>
       <!-- /.main-nav -->
-      <nav class="secondary-nav">
+      <nav class="secondary-nav" data-aos="fade-down">
         <ul class="list">
           <li class="item">
             <a href="#" class="item-link">About</a>
@@ -48,13 +54,15 @@
     </header>
     <!-- /.header -->
     <section class="main">
-      <h1 class="title">Falcon Heavy</h1>
-      <p class="description">
+      <h1 class="title" data-aos="fade-up" data-aos-delay="600">
+        Falcon Heavy
+      </h1>
+      <p class="description" data-aos="fade-up" data-aos-delay="1000">
         The most powerful operational rocket in the world by a factor of two
       </p>
     </section>
     <!-- /.main -->
-    <div class="video"></div>
+    <div class="video" data-aos="fade-up" data-aos-delay="1500"></div>
     <section class="features">
       <div class="overview">
         <h2 class="features-title">
@@ -130,6 +138,7 @@
       <a href="#" class="button">Contact us</a>
     </footer>
     <!-- /.footer -->
+    <script src="js/aos.js"></script>
     <script src="js/vidbg.js"></script>
     <script src="js/rellax.min.js"></script>
     <script src="js/main.js"></script>

@@ -4,8 +4,11 @@ var instance = new vidbg('.video', {
   poster: 'img/poster.jpg', // URL or relative path to fallback image
   overlay: false, // Boolean to display the overlay or not
 });
+
 var rellax = new Rellax('.rocket');
 
 if (document.body.clientWidth < 576) {
   rellax.destroy();
 }
+
+AOS.init();
